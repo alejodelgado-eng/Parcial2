@@ -1,0 +1,344 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: #222;
+    color: #ffcc00;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 0px 15px;
+    font-size: 16px;
+    
+}
+
+nav a:hover {
+    color: #f1c40f;
+}
+
+/*Index*/
+
+main {
+    background-color: #ffcc00;
+    padding: 20px;
+}
+
+
+.bloqueIndex {
+    background-color: #f4f4f4;
+    margin: 0px 20px 20px 20px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+
+h3 {
+    color: #222;
+    margin-top: 0;
+}
+
+
+.fotoIndex {
+    display: block;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 6px;
+
+}
+
+
+.bloqueIndex ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bloqueIndex li {
+    margin: 8px 0;
+}
+
+.bloqueIndex li strong {
+    color: #333;
+}
+
+
+
+
+/*Sobre la serie*/
+
+.tituloSobre {
+    text-align: center;
+    font-size: 26px;
+}
+
+.sinopsis {
+    margin: 15px;
+    padding: 20px;
+    background-color: beige;
+    text-align: center;
+
+
+}
+
+.tituloSinopsis {
+    text-align: center;
+}
+
+.fotoSinopsis {
+    width: 60%;
+    height: auto;
+
+}
+
+.segundoBloqueSobre {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    text-align: center;
+
+}
+
+.segundoBloqueSobre ul {
+    list-style: none;
+
+}
+
+.fotoSegundoSobre {
+    height: 250px;
+    width: auto;
+}
+
+/*Elenco*/
+
+.tituloElenco{
+    text-align: center;
+}
+.elenco {
+    padding: 20px;
+    text-align: center;
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px; 
+}
+
+.personaje {
+    
+    background: #f7f7f7;
+    border-radius: 10px;
+    padding: 12px;
+
+}
+
+
+.personaje img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+.personaje h3 {
+    margin: 6px 0 8px;
+    font-size: 18px;
+    color: #222;
+}
+
+.personaje p {
+    margin: 0;
+    color: #444;
+    font-size: 15px;
+}
+
+/*Temporadas*/
+
+
+#temporadas {
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+
+.contenedorTemporadas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+
+.temporada {
+    width: 45%;
+    margin: 2%;
+    box-sizing: border-box;
+    background: #fff8dc;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.temporada h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+
+
+.temporada img {
+    aspect-ratio: 16 / 9; 
+    max-width: 90%; 
+    height: 300px;
+    border-radius: 6px;
+    margin: 15px auto;
+}
+
+
+/*Eventos*/
+
+
+.mainEventos {
+    background-color: #444;
+}
+
+.bloque {
+    text-align: center;
+    background: #f1c40f;
+    color: #222;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+.evento {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin: 5px 5px 14px;
+    background: #fffdf0;
+    border-radius: 10px;
+    padding: 12px 14px;
+}
+
+.curiosidad {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin: 5px 5px 14px;
+    background: lightgray;
+    border-radius: 10px;
+    padding: 12px 14px;
+}
+
+/*Contacto*/
+
+.mainContacto{
+
+    min-height: 725px;      
+    text-align: center; 
+    background-color: #f1c40f; 
+    padding: 20px;
+    box-sizing: border-box;
+
+
+}
+
+.datosContacto {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 2%;
+    background: #fffdf0;
+    padding: 16px;
+    text-align: left;
+}
+
+.tituloContacto {
+        margin-top: 0;
+        font-size: 20px;
+        color: #333;
+        border-bottom: 2px solid #e0c35c;
+        padding-bottom: 6px;
+    }
+
+
+    
+
+    .listaCard li {
+        margin: 8px 0;
+    }
+
+
+    .listaCard a {
+        color: #2c3e50;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*footers*/
+    footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 0px;
+    }
+
+
+    footer a {
+        color: #ffcc00;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+    /*footers*/
