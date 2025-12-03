@@ -1,0 +1,41 @@
+.contenedorConfirmacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    border: 2px black solid;
+    width: 60%;
+}
+
+.parrafoConfir{
+    padding: 8px;
+}
+
+.botonConfirmacion{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    margin: 15px auto;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    border: 2px black solid;
+    background-color: antiquewhite;
+}
+
+.btnConfirmacion{
+    text-decoration: none;
+    color: black;
+}
+
+.btnConfirmacion:hover{
+    color: antiquewhite;
+}
+.botonConfirmacion:hover{
+    background-color: black;
+}
+
+.videoConfir{
+    display: block;
+    margin: 15px auto;
+}

@@ -33,6 +33,7 @@ nav a {
 
 nav a:hover {
     color: #f1c40f;
+    font-size: 18px;
 }
 
 /*Index*/
@@ -143,10 +144,16 @@ h3 {
 }
 
 .personaje {
-    
     background: #f7f7f7;
     border-radius: 10px;
     padding: 12px;
+
+}
+
+.personaje:hover {
+    transform: scale(1.08);
+    background-color: grey;
+
 
 }
 
