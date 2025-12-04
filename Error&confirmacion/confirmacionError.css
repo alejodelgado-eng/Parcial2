@@ -1,3 +1,5 @@
+
+
 .contenedorConfirmacion{
     display: flex;
     flex-direction: column;
@@ -38,4 +40,39 @@
 .videoConfir{
     display: block;
     margin: 15px auto;
+}
+
+.contenedorError{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    border: 2px black solid;
+    width: 30%;
+}
+
+.contenedorFotoError{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    
+}
+
+.fotoError{
+    height: 350px;
+    border-radius: 5px;
+    margin-bottom: 11px;
+
+}
+
+#redirigir{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    width: 30%;
+
 }
