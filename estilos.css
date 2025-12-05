@@ -236,7 +236,6 @@ h3 {
 .bloque {
     text-align: center;
     background: #f1c40f;
-    color: #222;
     padding: 10px 14px;
     border-radius: 8px;
     margin: 16px 0;
@@ -244,7 +243,6 @@ h3 {
 
 .evento {
     display: inline-block;
-    vertical-align: top;
     width: 48%;
     margin: 5px 5px 14px;
     background: #fffdf0;
@@ -254,7 +252,6 @@ h3 {
 
 .curiosidad {
     display: inline-block;
-    vertical-align: top;
     width: 48%;
     margin: 5px 5px 14px;
     background: lightgray;
@@ -266,12 +263,8 @@ h3 {
 
 .mainContacto{
 
-    min-height: 725px;      
     text-align: center; 
     background-color: #f1c40f; 
-    padding: 20px;
-    box-sizing: border-box;
-
 
 }
 
